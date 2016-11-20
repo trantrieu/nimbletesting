@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <!--Define view model-->
+    <data>
+        <variable
+            name="viewModel"
+            type="com.nimble.surveytest.home.viewmodel.SurveyViewModel"/>
+    </data>
+    <FrameLayout
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center"
+            app:imageUrl="@{viewModel.coverImageUrl}"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center_horizontal|bottom"
+                android:orientation="vertical"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <TextView
+                    style="@style/SurveyTitleTv"
+                    tools:text="Octave"
+                    android:text="@{viewModel.title}"
+                     />
+
+                <TextView
+                    style="@style/SurveyDescriptionTv"
+                    tools:text="Mariot Bankok"
+                    android:text="@{viewModel.description}"
+                    />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <Button
+                    android:onClick="@{viewModel.takeSurveyClick}"
+                    android:layout_gravity="center_horizontal|bottom"
+                    style="@style/TakeSurveyBtn"
+                    android:text="@string/take_the_survey"
+                    android:layout_marginBottom="@dimen/_50dp"
+                    />
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+</layout>

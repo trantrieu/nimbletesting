@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_86cb87334d470d633e4892c1bd2e45a50b743af0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.5/3277b0b0c2ace34a2edb5ddf9d1f67829561fb8f/leakcanary-analyzer-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3277b0b0c2ace34a2edb5ddf9d1f67829561fb8f">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/leakcanary-analyzer-1.5_d1013c27817f56a15cb8a798c0a1ad2719b0c15a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/gson-2.7_9dbd1d76762407a4c6a7e33c14d980d82bb1fa93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_b04ce87bab1e799c80ce388e65f438942f818b30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.1.0_1d1eb91cebb587b5adb78225927de51373231307.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_41284986ed896738155df4f6c4a16b037d76d123.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_0afdc5d68e7476e200dc3415a94e34bfa70be450.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_58e58dd5f4c019cc4e65f89b486894c4e08b7b36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_14c78334a8d3fb32daa3c33bc192020f1c3991c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.3/640a438d2d415c056ca6a673ac26b183b044e160/haha-2.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="640a438d2d415c056ca6a673ac26b183b044e160">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/haha-2.0.3_0956ed61b6f276585fc3e0aafc56b100e14cb007.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0c2613ac1a3e64171d34b61230dfee9c477d4f1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_aa30b5d39c396beef131d1fc8071734673a0e001.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c7a2672b3122b897a0751f327929ae405ea02bf7">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.squareup.leakcanary-leakcanary-android-1.5_b573ed55dd8dc71b419fe46b2e8edc4c076108ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.5/288101b16513158c2923ad3fb6161d1452b65e73/leakcanary-watcher-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="288101b16513158c2923ad3fb6161d1452b65e73">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/leakcanary-watcher-1.5_2ae7ad54ded4342b71d9cfd5de4ff39c04d767da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.android.databinding-adapters-1.2.1_323c82fb426975c1aee237a2336798009076bc91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_3a5222f4fc78beb55a099b3c66bb667ad75e089b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0a3ed5dbb8bcf90b2b27fdf8764ada25bec10ebb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_df3dafbc228d905aa74173f27d851a963b507202.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.android.databinding-library-1.2.1_fe9087a6ec6d5f51d8ddafe77a68cc07bbcc57c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_acbe49b5da9b1ce9dc0d1f4295f6257476c31ab8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.8/cf615176cd1177edf71d3c9605f8dc148fede6be/otto-1.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cf615176cd1177edf71d3c9605f8dc148fede6be">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/otto-1.3.8_2357a0928fc7af48812514539ef203f669a3a1c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_9c90f44e18973e0cc3287da7db59962ecc5a3a29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.1_ddba518c398b2f8925aaea2971813a094d95b3c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_828373dda946d14ab2cda1f86f458b7b2e26365e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/okio-1.8.0_8c962206bb5355f4cda938d13b61984e37fb6dc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_271743794f0385e15bd3d64478a2516cdc80849e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.2.2/baseLibrary-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8e3519b9d5287840df40776a8268ae336ca9f063">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/baseLibrary-2.2.2_7ed53c723ae13fdba19a1b45153e478d184e8ae5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_476c6bb7f32182638e4cc01df483663b889e547f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_134751c61c4271ac63374ced0dd13b54ed84687c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_86238a3c3517f1ac695e891502f07848887f9bc9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_54a699adcdaa47f95dbbfa2eb2514d35c079eeed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_72999f7e9c3032022180fa63ecb847027deff450.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_749f93edeb27f1f103d8df69f08d147c25c06816.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Apple/Documents/Projects/NimbleSurveyTest/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_21262eaf4dfcb3442a8a95614fec2134b39e992a.jar" />
+    </item>
+
+</items>

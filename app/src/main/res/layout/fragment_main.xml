@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <!--Define view model-->
+    <data>
+        <variable
+            name="viewModel"
+            type="com.nimble.surveytest.home.viewmodel.MainViewModel"/>
+    </data>
+
+    <FrameLayout
+        android:id="@+id/fragment_main_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            app:visibility="@{viewModel.contentViewVisibility}"
+            android:id="@+id/fragment_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.nimble.surveytest.home.view.customviews.viewpageindicator.VerticalViewPager
+                android:id="@+id/fragment_main_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <com.nimble.surveytest.home.view.customviews.viewpageindicator.CirclePageIndicator
+                android:layout_gravity="center_vertical|right"
+                android:id="@+id/fragment_main_indicator"
+                android:padding="10dip"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+        </FrameLayout>
+        <FrameLayout
+            app:visibility="@{viewModel.infoViewVisibility}"
+            android:id="@+id/fragment_main_info_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</layout>

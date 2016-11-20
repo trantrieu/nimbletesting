@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@color/colorAccent"
+    >
+    <!--http://stackoverflow.com/questions/20545742/padding-not-working-on-imagebutton-->
+    <ImageButton
+        android:theme="@style/MenuImageBtn"
+        style="@style/MenuImageBtn"
+        android:src="@drawable/ic_refresh_selector"
+        android:id="@+id/toolbar_main_refresh_btn"
+        />
+
+    <TextView
+        android:text="@string/toolbar_title"
+        style="@style/TitleText"
+        android:layout_gravity="center"
+        />
+
+    <ImageButton
+        android:theme="@style/MenuImageBtn"
+        style="@style/MenuImageBtn"
+        android:src="@drawable/ic_menu_selector"
+        android:layout_gravity="right"
+        android:id="@+id/toolbar_main_menu_btn"
+        />
+
+</FrameLayout>

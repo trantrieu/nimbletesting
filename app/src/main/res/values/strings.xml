@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NimbleSurveyTest</string>
+    <string name="ok">Ok</string>
+    <string name="toolbar_title">SURVEYS</string>
+    <string name="retry">retry</string>
+    <string name="empty_result">No surveys are available!</string>
+    <string name="take_the_survey">Take the survey</string>
+</resources>
