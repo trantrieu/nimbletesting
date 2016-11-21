@@ -67,7 +67,7 @@ public class MainViewModel implements ViewModel {
     protected void refreshListSurvey(){
         showInfoView();
         infoViewModel.showLoading();
-        subscription = surveyRepository.provideSurveyRepository()
+        subscription = surveyRepository.provideSurveyRepository(1, 10)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Subscriber<List<Survey>>() {
@@ -113,6 +113,7 @@ public class MainViewModel implements ViewModel {
 
     @Override
     public void destroy() {
+        mainFragmentListener = null;
         if(subscription != null){
             subscription.unsubscribe();
         }
