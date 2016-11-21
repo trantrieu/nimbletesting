@@ -67,7 +67,7 @@ public class MainViewModel implements ViewModel {
     protected void refreshListSurvey(){
         showInfoView();
         infoViewModel.showLoading();
-        subscription = surveyRepository.provideSurveyRepository(1, 10)
+        subscription = surveyRepository.provideSurveyRepository()
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Subscriber<List<Survey>>() {
