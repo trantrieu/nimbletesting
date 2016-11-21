@@ -22,6 +22,7 @@ import com.nimble.surveytest.home.viewmodel.MainViewModel;
 import java.util.List;
 
 /**
+ * Main fragment shows menu and view pager
  * Created by Apple on 11/19/16.
  */
 
@@ -52,7 +53,7 @@ public class MainFragment extends BaseFragment implements MainViewModel.MainFrag
         mainViewModel = new MainViewModel(getContext(), infoViewModel, this);
         fragmentMainBinding.setViewModel(mainViewModel);
 
-        //bind this view to this MainFragment
+        //setup viewpager and pageindicator
         circlePageIndicator = (CirclePageIndicator) view.findViewById(R.id.fragment_main_indicator);
         verticalViewPager = (VerticalViewPager) view.findViewById(R.id.fragment_main_pager);
 
@@ -93,7 +94,7 @@ public class MainFragment extends BaseFragment implements MainViewModel.MainFrag
         surveyAdapter.updateList(list);
 
         /**
-         * Move viewpager to first position
+         * Viewpager move to first page
          */
         if(list.size() > 0) {
             verticalViewPager.setCurrentItem(0);

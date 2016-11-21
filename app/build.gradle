@@ -34,6 +34,10 @@ android {
         if(variant.buildType.name.equals('release') && variant.getFlavors().get(0).name.equals('mock')) {
             variant.setIgnore(true);
         }
+
+        if(variant.buildType.name.equals('release') && variant.getFlavors().get(0).name.equals('prod')) {
+            variant.setIgnore(true);
+        }
     }
     /**
      * http://tools.android.com/tech-docs/unit-testing-support#TOC-Method-...-not-mocked.-

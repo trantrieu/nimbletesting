@@ -11,6 +11,7 @@ import com.nimble.surveytest.home.model.entities.Survey;
 import com.squareup.picasso.Picasso;
 
 /**
+ * Survey view model is representing of each survey view fragment
  * Created by Apple on 11/19/16.
  */
 

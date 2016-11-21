@@ -8,6 +8,7 @@ import com.nimble.surveytest.home.view.activities.MainActivity;
 import com.nimble.surveytest.utils.EventBusManager;
 
 /**
+ * Info View model is representing for state of view of fetching data from network
  * Created by Apple on 11/19/16.
  */
 

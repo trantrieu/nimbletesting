@@ -39,9 +39,15 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.toolbar_main_menu_btn:
+                /**
+                 * send action menu pressed
+                 */
                 EventBusManager.getOttoManager().post(ACTION_MENU_BTN);
                 break;
             case R.id.toolbar_main_refresh_btn:
+                /**
+                 * send action refresh pressed
+                 */
                 EventBusManager.getOttoManager().post(ACTION_REFRESH_BTN);
                 break;
         }

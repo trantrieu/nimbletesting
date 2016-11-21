@@ -11,12 +11,12 @@ import com.nimble.surveytest.home.view.fragments.BaseFragment;
  */
 public class BaseActivity extends AppCompatActivity {
 
-//    public void addFragment(int containerViewId, BaseFragment fragment) {
-//        FragmentTransaction fragmentTransaction = this.getSupportFragmentManager().beginTransaction();
-//        fragmentTransaction.add(containerViewId, fragment, fragment.getTagName());
-//        fragmentTransaction.addToBackStack("add " + fragment.getTagName());
-//        fragmentTransaction.commit();
-//    }
+    public void addFragment(int containerViewId, BaseFragment fragment) {
+        FragmentTransaction fragmentTransaction = this.getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.add(containerViewId, fragment, fragment.getTagName());
+        fragmentTransaction.addToBackStack("add " + fragment.getTagName());
+        fragmentTransaction.commit();
+    }
 
     public void replaceFragment(int containerViewId, BaseFragment fragment) {
         FragmentTransaction fragmentTransaction = this.getSupportFragmentManager().beginTransaction();

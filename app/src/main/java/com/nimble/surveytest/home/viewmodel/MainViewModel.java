@@ -20,6 +20,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
 /**
+ * Main view model is representing for state of view of main fragment
  * Created by Apple on 11/19/16.
  */
 
@@ -34,6 +35,7 @@ public class MainViewModel implements ViewModel {
     private MainFragmentListener mainFragmentListener;
     private Subscription subscription;
     private SurveyRepository surveyRepository;
+
     public MainViewModel(Context context, InfoViewModel infoViewModel, MainFragmentListener mainFragmentListener) {
         this.context = context;
         this.infoViewModel = infoViewModel;
@@ -46,6 +48,10 @@ public class MainViewModel implements ViewModel {
         refreshListSurvey();
     }
 
+    /**
+     * Receive action pressed
+     * @param action
+     */
     @Subscribe
     public void onActionEvent(String action){
         if(action.equals(MainActivity.ACTION_MENU_BTN)){
@@ -55,6 +61,9 @@ public class MainViewModel implements ViewModel {
         }
     }
 
+    /**
+     * Fetch new survey list
+     */
     protected void refreshListSurvey(){
         showInfoView();
         infoViewModel.showLoading();
@@ -85,13 +94,18 @@ public class MainViewModel implements ViewModel {
     }
 
     /**
-     * http://stackoverflow.com/questions/6913325/annotation-to-make-a-private-method-public-only-for-test-classes
+     * Show information view
+     * Hide list view
      */
     protected void showInfoView(){
         infoViewVisibility.set(View.VISIBLE);
         contentViewVisibility.set(View.GONE);
     }
 
+    /**
+     * Hide information view
+     * Show list view
+     */
     protected void showContent(){
         infoViewVisibility.set(View.GONE);
         contentViewVisibility.set(View.VISIBLE);

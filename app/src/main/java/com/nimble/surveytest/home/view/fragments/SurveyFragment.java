@@ -13,9 +13,9 @@ import com.nimble.surveytest.home.model.entities.Survey;
 import com.nimble.surveytest.home.viewmodel.SurveyViewModel;
 
 /**
+ * Survey fragment is representing for each page in view pager
  * Created by Apple on 11/19/16.
  */
-
 public class SurveyFragment extends BaseFragment {
     private Survey survey;
     private SurveyViewModel surveyViewModel;
