@@ -52,8 +52,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp">
 
+                <!--http://stackoverflow.com/questions/37150303/android-databinding-compile-warning-method-references-using-is-deprecated-->
                 <Button
-                    android:onClick="@{viewModel.takeSurveyClick}"
+                    android:onClick="@{viewModel::takeSurveyClick}"
                     android:layout_gravity="center_horizontal|bottom"
                     style="@style/TakeSurveyBtn"
                     android:text="@string/take_the_survey"

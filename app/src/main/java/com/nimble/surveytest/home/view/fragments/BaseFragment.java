@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
-import com.nimble.surveytest.App;
 import com.nimble.surveytest.home.view.dialogs.DialogCreator;
 
 import static com.nimble.surveytest.home.view.dialogs.DialogCreator.showDialogMessage;
@@ -35,7 +34,7 @@ public abstract class BaseFragment extends Fragment {
 
     @Override public void onDestroy() {
         super.onDestroy();
-        App.getRefWatcher().watch(this);
+        //App.getRefWatcher().watch(this);
     }
 
     public void showDialog(String title, String message, DialogInterface.OnClickListener onClickListener){

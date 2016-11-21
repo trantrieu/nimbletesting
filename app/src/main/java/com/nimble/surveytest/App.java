@@ -4,8 +4,6 @@ import android.app.Application;
 import android.view.LayoutInflater;
 
 import com.nimble.surveytest.home.model.datalayers.SurveyService;
-import com.squareup.leakcanary.LeakCanary;
-import com.squareup.leakcanary.RefWatcher;
 
 /**
  * Created by Apple on 11/19/16.
@@ -14,24 +12,24 @@ import com.squareup.leakcanary.RefWatcher;
 public class App extends Application {
 
     static public LayoutInflater inflater;
-    static private RefWatcher refWatcher;
+    //static private RefWatcher refWatcher;
     @Override
     public void onCreate() {
         super.onCreate();
         inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
-        if (LeakCanary.isInAnalyzerProcess(this)) {
-            return;
-        }
-        refWatcher = LeakCanary.install(this);
+        //        if (LeakCanary.isInAnalyzerProcess(this)) {
+        //            return;
+        //        }
+        //        refWatcher = LeakCanary.install(this);
     }
 
-    static public RefWatcher getRefWatcher(){
-        return refWatcher;
-    }
+    //    static public RefWatcher getRefWatcher(){
+    //        return refWatcher;
+    //    }
 
     @Override
     public void onTerminate() {
-        refWatcher = null;
+        //        refWatcher = null;
         inflater = null;
         SurveyService.Factory.stopSurveyService();
         super.onTerminate();

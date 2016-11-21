@@ -4,8 +4,10 @@ package com.nimble.surveytest.home.model.entities;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import java.io.Serializable;
 
-public class Theme {
+
+public class Theme implements Serializable{
 
     @SerializedName("color_active")
     @Expose

@@ -41,12 +41,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <!--http://stackoverflow.com/questions/37150303/android-databinding-compile-warning-method-references-using-is-deprecated-->
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/information_layout_button_retry"
                 android:text="@string/retry"
-                android:onClick="@{viewModel.onErrorButtonClick}"
+                android:onClick="@{viewModel::onErrorButtonClick}"
                 />
 
             <TextView

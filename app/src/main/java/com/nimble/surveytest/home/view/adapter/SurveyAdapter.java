@@ -29,10 +29,7 @@ public class SurveyAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         Survey survey = list.get(position);
-        SurveyFragment surveyFragment = SurveyFragment.getInstance();
-
-        //Parcel lib doesn't work, so temporaly work around
-        surveyFragment.setSurvey(survey);
+        SurveyFragment surveyFragment = SurveyFragment.getInstance(survey);
         return surveyFragment;
     }
 

@@ -17,15 +17,23 @@ import com.nimble.surveytest.home.viewmodel.SurveyViewModel;
  * Created by Apple on 11/19/16.
  */
 public class SurveyFragment extends BaseFragment {
+    static private final String SURVEY_PASS = "SURVEY_PASS";
     private Survey survey;
     private SurveyViewModel surveyViewModel;
-    static public SurveyFragment getInstance(){
+    static public SurveyFragment getInstance(Survey survey){
         SurveyFragment surveyFragment = new SurveyFragment();
+        Bundle bundle = new Bundle();
+        bundle.putSerializable(SURVEY_PASS, survey);
+        surveyFragment.setArguments(bundle);
         return surveyFragment;
     }
 
-    public void setSurvey(Survey survey){
-        this.survey = survey;
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if(getArguments() != null){
+            survey = (Survey) getArguments().getSerializable(SURVEY_PASS);
+        }
     }
 
     @Nullable
