@@ -16,9 +16,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <!--style="?android:attr/progressBarStyleLarge"-->
         <ProgressBar
             app:visibility="@{viewModel.progressVisibility}"
-            style="?android:attr/progressBarStyleLarge"
+            style="@style/InfoProgressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/information_layout_loading_bar"
@@ -47,6 +48,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/information_layout_button_retry"
                 android:text="@string/retry"
+                style="@style/InfoRetryBtn"
                 android:onClick="@{viewModel::onErrorButtonClick}"
                 />
 

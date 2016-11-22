@@ -53,4 +53,12 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="InfoProgressBar" parent="Widget.AppCompat.ProgressBar">
+
+    </style>
+
+    <style name="InfoRetryBtn" parent="Widget.AppCompat.Button">
+
+    </style>
+
 </resources>
