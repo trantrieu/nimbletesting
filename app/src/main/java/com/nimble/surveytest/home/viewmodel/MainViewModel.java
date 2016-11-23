@@ -67,6 +67,11 @@ public class MainViewModel implements ViewModel {
     protected void refreshListSurvey(){
         showInfoView();
         infoViewModel.showLoading();
+        /**
+         * Change your provider here, there are 2 providers:
+         * 1. provideSurveyRepository with page and page number
+         * 2. provideSurveyRepository
+         */
         subscription = surveyRepository.provideSurveyRepository(1, 10)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
