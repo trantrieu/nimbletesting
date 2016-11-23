@@ -67,12 +67,13 @@ dependencies {
 
     compile dependencies.picasso
 
+
     //Not using anymore because leakcanary requires Storage permission
     //As this case, i don't use it anymore
     //https://github.com/square/leakcanary/issues/285
 
-    debugCompile dependencies.leakCanaryDebug
-    releaseCompile dependencies.leakCanaryRelease
+    //    debugCompile dependencies.leakCanaryDebug
+    //    releaseCompile dependencies.leakCanaryRelease
 
     // Dependencies for local unit tests
     testCompile "junit:junit:$rootProject.ext.junitVersion"
